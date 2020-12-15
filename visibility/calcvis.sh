@@ -1,0 +1,14 @@
+jwst_gtvt 204.2215065 -7.3180577 --name "EPIC212737443c" --save_plot EPIC212737443c.jpg --save_table EPIC212737443c.dat
+jwst_gtvt 127.882912 11.922255 --name "K2-114b" --save_plot K2-114b.jpg --save_table K2-114b.dat
+jwst_gtvt 188.1373172 -9.6076115 --name "K2-140b" --save_plot K2-140b.jpg --save_table K2-140b.dat
+jwst_gtvt 233.0743401 -22.3583447 --name "K2-287b" --save_plot K2-287b.jpg --save_table K2-287b.dat
+jwst_gtvt 246.6429443 -15.7925384 --name "K2-289b" --save_plot K2-289b.jpg --save_table K2-289b.dat
+jwst_gtvt 288.2341025 40.520897 --name "Kepler-150f" --save_plot Kepler-150f.jpg --save_table Kepler-150f.dat
+jwst_gtvt 296.457702 41.266021 --name "Kepler-1653b" --save_plot Kepler-1653b.jpg --save_table Kepler-1653b.dat
+jwst_gtvt 287.8971066 40.6378141 --name "Kepler-238e" --save_plot Kepler-238e.jpg --save_table Kepler-238e.dat
+jwst_gtvt 297.4653351 42.8828517 --name "Kepler-289d" --save_plot Kepler-289d.jpg --save_table Kepler-289d.dat
+jwst_gtvt 296.9603348 46.0342954 --name "Kepler-39b" --save_plot Kepler-39b.jpg --save_table Kepler-39b.dat
+jwst_gtvt 283.2125621 45.3496992 --name "Kepler-62f" --save_plot Kepler-62f.jpg --save_table Kepler-62f.dat
+jwst_gtvt 289.5085612 41.8120234 --name "Kepler-705b" --save_plot Kepler-705b.jpg --save_table Kepler-705b.dat
+jwst_gtvt 295.0949565 43.537565 --name "Kepler-855b" --save_plot Kepler-855b.jpg --save_table Kepler-855b.dat
+jwst_gtvt 293.0940391 42.8964457 --name "Kepler-986b" --save_plot Kepler-986b.jpg --save_table Kepler-986b.dat

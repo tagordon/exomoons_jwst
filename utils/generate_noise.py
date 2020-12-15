@@ -57,3 +57,21 @@ def variability_factors(x, wl, cold_temp, hot_temp, effective_temp, spec_path):
     
     return factors, factors * interp_spec_mean(wl)[:, None], wl
 
+def equal_wn_bins(alpha, stds, nbins=2):
+    total_wn = np.sqrt(np.sum(stds ** 2))
+    wn_per_bin = total_wn / np.sqrt(nbins)
+
+    inds = [0]
+    j = 0
+    for i in range(nbins):
+        sum_wn_squared = 0
+        sum_mean = 0
+        while (np.sqrt(sum_wn_squared) < wn_per_bin) & (j < len(stds)):
+            sum_wn_squared += stds[j] ** 2
+            j += 1
+        inds.append(j)
+
+    alphas = np.zeros(len(inds)-1)
+    for i in range(len(inds)-1):
+        alphas[i] = np.mean(alpha[inds[i]:inds[i+1]])
+    return alphas
